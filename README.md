@@ -1,15 +1,15 @@
 # KaizenApp  
 
-Aplicación experimental que convierte **comandos de voz en transacciones financieras simuladas**, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
+Aplicación experimental que convierte **comandos de voz en transacciones financieras **, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
 
 ---
 
-##  ¿Cuál es el problema?
-Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transferencias, sin depender de menús complicados o formularios extensos. Actualmente, los sistemas financieros móviles suelen ser poco accesibles para personas que prefieren la interacción por voz.  
+##  ¿Cuál es la problemática?
+Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transferencias, sin depender de menús complicados o formularios extensos. Actualmente, los sistemas financieros móviles suelen ser poco accesibles para personas que prefieren la interacción por voz o tienen problemas audiovisuales.  
 
 ---
 
-## ¿Qué tecnología usarán?
+## ¿Qué tecnología se usó?
 ● Frontend: Web/Móvil. 
 
 ● Reconocimiento de voz: API Web Speech del navegador (SpeechRecognition). 
@@ -23,13 +23,13 @@ Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transf
 ---
 
 ## ¿Cuál es la solución?
-KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que simula una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
+KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que realiza una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
 
 ---
 
 ## ¿Cuáles son los beneficios?
 - **Rapidez**: transferencias con un solo comando de voz.  
-- **Accesibilidad**: útil para personas con dificultades motoras o visuales.  
+- **Accesibilidad**: útil para personas con dificultades auditivas o visuales.  
 - **Experiencia intuitiva**: flujo natural, sin menús ni pasos innecesarios.  
 - **Pruebas seguras**: uso de wallets y transacciones simuladas.  
 
