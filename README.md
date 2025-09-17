@@ -2,7 +2,7 @@
 
 Aplicación experimental que convierte **comandos de voz en transacciones financieras **, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
 <div align="center">
-  <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototipo" width="200">
+  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/Icono.jpg" alt="Prototipo" width="200">
 </div>
 ---
 
