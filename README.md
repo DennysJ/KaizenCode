@@ -4,12 +4,12 @@ Aplicación experimental que convierte **comandos de voz en transacciones financ
 
 ---
 
-## 📌 ¿Cuál es el problema?
+## ¿Cuál es el problema?
 Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transferencias, sin depender de menús complicados o formularios extensos. Actualmente, los sistemas financieros móviles suelen ser poco accesibles para personas que prefieren la interacción por voz.  
 
 ---
 
-## 🛠️ ¿Qué tecnología usarán?
+## ¿Qué tecnología usarán?
 - **Frontend**: Aplicación móvil/web con botón de micrófono.  
 - **Reconocimiento de voz**: API nativa o de terceros (ej. Web Speech API, Google Speech-to-Text).  
 - **Backend**: Node.js con Express.  
@@ -18,12 +18,12 @@ Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transf
 
 ---
 
-## 💡 ¿Cuál es la solución?
+## ¿Cuál es la solución?
 KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que simula una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
 
 ---
 
-## 🎯 ¿Cuáles son los beneficios?
+## ¿Cuáles son los beneficios?
 - **Rapidez**: transferencias con un solo comando de voz.  
 - **Accesibilidad**: útil para personas con dificultades motoras o visuales.  
 - **Experiencia intuitiva**: flujo natural, sin menús ni pasos innecesarios.  
@@ -31,7 +31,7 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 
 ---
 
-## 🏗️ Arquitectura / Stack simple
+## Arquitectura / Stack simple
 1. **Voz → Texto**: API de reconocimiento de voz.  
 2. **Texto → Análisis**: parser de comandos (monto, moneda, destinatario).  
 3. **Texto → API**: solicitud al backend (`/api/transfer`).  
@@ -40,26 +40,36 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 
 ---
 
-## 🔑 Funciones indispensables
-- 🎤 **Botón de micrófono** para iniciar reconocimiento de voz.  
-- 📝 **Conversión de voz a texto** en tiempo real.  
-- 🔍 **Detección de comandos** (ej. transferencias).  
-- 🌐 **API REST** para enviar solicitud al backend.  
-- 💳 **Simulación de transferencias** con Interledger.  
-- 📲 **Feedback visual y auditivo** (procesando, éxito, error).  
+## Funciones indispensables
+-  **Botón de micrófono** para iniciar reconocimiento de voz.  
+-  **Conversión de voz a texto** en tiempo real.  
+-  **Detección de comandos** (ej. transferencias).  
+-  **API REST** para enviar solicitud al backend.  
+-  **Simulación de transferencias** con Interledger.  
+-  **Feedback visual y auditivo** (procesando, éxito, error).  
 
 ---
 
-## 👥 Responsables
-- **Frontend (App/Interfaz)** → Equipo de desarrollo móvil/web.  
-- **Módulo de Voz a Texto** → Integrador de APIs de reconocimiento de voz.  
-- **Parser de Comandos** → Equipo de NLP / lógica de negocio.  
-- **Backend (Node.js + API Interledger)** → Equipo backend.  
-- **UI/UX y feedback visual** → Equipo de diseño de interfaz.  
-
+##  Responsables
+●**Líder de Proyecto** → Denise Jacobo García 
+○ Coordina al equipo. 
+○ Supervisa avances. 
+○ Asegura que la propuesta se alinee con los objetivos del hackatón. 
+● **Programadora Frontend** → Alexandra Lizeth Ruiz Martínez 
+○ Desarrollo de interfaz (HTML, CSS, JS). 
+○ Integración del frontend con el backend. 
+○ Manejo del módulo de speech-to-text y visualización de resultados. 
+● **Programador Backend** → Julio Andrés Reyes García 
+○ Desarrollo de la API en Node.js. 
+○ Conexión con la API de Interledger Open Payments. 
+○ Implementación de la lógica para simular transferencias entre wallets. 
+● **Documentación & Speech** → Axell Jonathan Méndez Pérez 
+○ Redacción del README y manual de usuario. 
+○ Preparación del discurso/pitch para presentación. 
+○ Explicación clara del problema, la solución y los beneficios.
 ---
 
-## 🚀 Flujo resumido
+##  Flujo resumido
 1. Usuario presiona el micrófono.  
 2. La app convierte voz → texto.  
 3. Se analiza el texto y se detecta el comando.  
