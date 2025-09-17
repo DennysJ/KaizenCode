@@ -1,31 +1,68 @@
-●**Líder de Proyecto** → Denise Jacobo García 
+# KaizenApp  
 
-○ Coordina al equipo. 
+Aplicación experimental que convierte **comandos de voz en transacciones financieras simuladas**, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
 
-○ Supervisa avances. 
+---
 
-○ Asegura que la propuesta se alinee con los objetivos del hackatón. 
+##  ¿Cuál es el problema?
+Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transferencias, sin depender de menús complicados o formularios extensos. Actualmente, los sistemas financieros móviles suelen ser poco accesibles para personas que prefieren la interacción por voz.  
 
-● **Programadora Frontend** → Alexandra Lizeth Ruiz Martínez 
+---
 
-○ Desarrollo de interfaz (HTML, CSS, JS). 
+## ¿Qué tecnología usarán?
+- **Frontend**: Aplicación móvil/web con botón de micrófono.  
+- **Reconocimiento de voz**: API nativa o de terceros (ej. Web Speech API, Google Speech-to-Text).  
+- **Backend**: Node.js con Express.  
+- **Pagos simulados**: Interledger Open Payments API.  
+- **Comunicación**: API REST (`/api/transfer`).  
 
-○ Integración del frontend con el backend. 
+---
 
-○ Manejo del módulo de speech-to-text y visualización de resultados. 
+## ¿Cuál es la solución?
+KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que simula una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
 
-● **Programador Backend** → Julio Andrés Reyes García 
+---
 
-○ Desarrollo de la API en Node.js. 
+## ¿Cuáles son los beneficios?
+- **Rapidez**: transferencias con un solo comando de voz.  
+- **Accesibilidad**: útil para personas con dificultades motoras o visuales.  
+- **Experiencia intuitiva**: flujo natural, sin menús ni pasos innecesarios.  
+- **Pruebas seguras**: uso de wallets y transacciones simuladas.  
 
-○ Conexión con la API de Interledger Open Payments. 
+---
 
-○ Implementación de la lógica para simular transferencias entre wallets. 
+## Arquitectura / Stack simple
+1. **Voz → Texto**: API de reconocimiento de voz.  
+2. **Texto → Análisis**: parser de comandos (monto, moneda, destinatario).  
+3. **Texto → API**: solicitud al backend (`/api/transfer`).  
+4. **Backend Node.js**: integración con Interledger Open Payments.  
+5. **Respuesta → Pantalla**: resultado en la app (toast + cuadro de texto).  
 
-● **Documentación & Speech** → Axell Jonathan Méndez Pérez 
+---
 
-○ Redacción del README y manual de usuario. 
+## Funciones indispensables
+-  **Botón de micrófono** para iniciar reconocimiento de voz.  
+-  **Conversión de voz a texto** en tiempo real.  
+-  **Detección de comandos** (ej. transferencias).  
+-  **API REST** para enviar solicitud al backend.  
+-  **Simulación de transferencias** con Interledger.  
+-  **Feedback visual y auditivo** (procesando, éxito, error).  
 
-○ Preparación del discurso/pitch para presentación. 
+---
 
-○ Explicación clara del problema, la solución y los beneficios.
+##  Responsables
+- **Frontend (App/Interfaz)** → Equipo de desarrollo móvil/web.  
+- **Módulo de Voz a Texto** → Integrador de APIs de reconocimiento de voz.  
+- **Parser de Comandos** → Equipo de NLP / lógica de negocio.  
+- **Backend (Node.js + API Interledger)** → Equipo backend.  
+- **UI/UX y feedback visual** → Equipo de diseño de interfaz.  
+
+---
+
+##  Flujo resumido
+1. Usuario presiona el micrófono.  
+2. La app convierte voz → texto.  
+3. Se analiza el texto y se detecta el comando.  
+4. Se envía la solicitud al backend (`/api/transfer`).  
+5. Backend procesa y responde con estado de la transacción.  
+6. La app muestra el resultado al usuario.  
