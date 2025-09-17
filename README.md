@@ -48,11 +48,11 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 
 
 ## Responsables
-- **Frontend (App/Interfaz)** → Equipo de desarrollo móvil/web.  
-- **Módulo de Voz a Texto** → Integrador de APIs de reconocimiento de voz.  
-- **Parser de Comandos** → Equipo de NLP / lógica de negocio.  
-- **Backend (Node.js + API Interledger)** → Equipo backend.  
-- **UI/UX y feedback visual** → Equipo de diseño de interfaz.  
+- **Denise Jacobo Garcia** → Equipo de desarrollo móvil/web.  
+- **Axell Jhonatan Mendez Perez** → Integrador de APIs de reconocimiento de voz.  
+- **...** → Equipo de NLP / lógica de negocio.  
+- **...** → Equipo backend.  
+- **...** → Equipo de diseño de interfaz.  
 
 
 ## Flujo resumido
