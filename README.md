@@ -1,6 +1,9 @@
 # KaizenApp  
 
 Aplicación experimental que convierte **comandos de voz en transacciones financieras simuladas**, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
+<div align="center">
+  <img src="https://github.com/DennysJ/KaizenCode/blob/main/prototipo.jpg" alt="Prototipo" width="200">
+</div>
 
 
 ##  ¿Cuál es el problema?
