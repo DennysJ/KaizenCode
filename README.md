@@ -63,5 +63,5 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 5. Backend procesa y responde con estado de la transacción.  
 6. La app muestra el resultado al usuario.
 <div align="center">
-  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/prototipo.jpg" alt="Prototipo" width="200">
+  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/prototipo2.jpg" alt="Prototipo" width="200">
 </div>
