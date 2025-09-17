@@ -4,6 +4,7 @@ Aplicación experimental que convierte comandos de voz en **transacciones financ
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/Icono.jpg" alt="Prototipo" width="200">
 </div>
+
 ---
 
 ##  ¿Cuál es la problemática?
