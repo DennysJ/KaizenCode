@@ -1,67 +1,95 @@
-# KaizenApp  
+# KaizenApp 🚀  
 
-Aplicación experimental que convierte **comandos de voz en transacciones financieras simuladas**, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
+KaizenApp es una aplicación experimental que permite realizar **transferencias simuladas mediante comandos de voz**, ofreciendo rapidez, accesibilidad e innovación en la experiencia de usuario.  
 
-<div align="center">
-  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/prototipo.jpg" alt="Prototipo" width="200">
-</div>
+---
 
+## 📌 Propuesta de valor hacia el negocio  
+KaizenApp elimina la necesidad de navegar por menús o llenar formularios extensos al permitir transferencias solo con la voz.  
 
-##  ¿Cuál es el problema?
-Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transferencias, sin depender de menús complicados o formularios extensos. Actualmente, los sistemas financieros móviles suelen ser poco accesibles para personas que tienen discapacidades audiovisuales.  
+- **Valor diferencial**: interacción natural mediante comandos de voz.  
+- **Oportunidad de mercado**: accesibilidad para personas con discapacidad, usuarios multitarea y entornos donde escribir no es viable.  
+- **Escalabilidad**: posibilidad futura de integrarse con servicios bancarios reales o asistentes virtuales.  
 
+---
 
-## ¿Qué tecnología usarán?
-- **Frontend**: Aplicación móvil/web con botón de micrófono.  
-- **Reconocimiento de voz**: API nativa o de terceros (ej. Web Speech API, Google Speech-to-Text).  
-- **Backend**: Node.js con Express.  
-- **Pagos simulados**: Interledger Open Payments API.  
-- **Comunicación**: API REST (`/api/transfer`).  
+## 🛠️ Descripción de la solución técnica a alto nivel  
+La solución está diseñada de forma modular:  
 
+1. 🎤 **Captura de voz** → El usuario activa el micrófono en la app.  
+2. 📝 **Procesamiento inicial** → Conversión de voz en texto (SpeechRecognition).  
+3. 🔍 **Análisis semántico** → Extracción de monto, moneda y destinatario.  
+4. 🌐 **Comunicación con backend** → Envío de datos al servidor Node.js.  
+5. 💳 **Simulación de pago** → Uso de Interledger Open Payments para procesar una transacción simulada.  
+6. 📲 **Respuesta al usuario** → Estado de la transacción mostrado en pantalla (éxito, error, procesando).  
 
-## ¿Cuál es la solución?
-KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que simula una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
+**Tecnologías clave:**  
+- Frontend: Web/Móvil  
+- Reconocimiento de voz: Web Speech API (SpeechRecognition)  
+- Backend: Node.js con Express  
+- Pagos: Interledger Open Payments API  
+- Comunicación: REST API (`/api/transfer`)  
 
+---
 
-## ¿Cuáles son los beneficios?
-- **Rapidez**: transferencias con un solo comando de voz.  
-- **Accesibilidad**: útil para personas con dificultades motoras o visuales.  
-- **Experiencia intuitiva**: flujo natural, sin menús ni pasos innecesarios.  
-- **Pruebas seguras**: uso de wallets y transacciones simuladas.  
+## 📊 Análisis de viabilidad (cuantitativo)  
+- ⏳ **Tiempo de desarrollo**: 3–4 meses (MVP).  
+- 👥 **Equipo necesario**: 4–5 personas.  
+- 💰 **Costos aproximados (MXN):**  
+  - Servicios de nube y hosting: $900 – $1,800 / mes  
+  - API de voz (Google Speech-to-Text): $26 por cada hora de audio procesado  
+  - Desarrollo humano: $360,000 – $450,000  
 
+✔️ Conclusión: **La solución es técnicamente viable** gracias al uso de componentes probados y tecnologías open source.  
 
-## Arquitectura / Stack simple
-1. **Voz → Texto**: API de reconocimiento de voz.  
-2. **Texto → Análisis**: parser de comandos (monto, moneda, destinatario).  
-3. **Texto → API**: solicitud al backend (`/api/transfer`).  
-4. **Backend Node.js**: integración con Interledger Open Payments.  
-5. **Respuesta → Pantalla**: resultado en la app (toast + cuadro de texto).  
+---
 
+## 🌍 Impacto y sostenibilidad  
+**Impacto esperado:**  
+- 🚀 Reducción del **70% del tiempo** de transferencia frente a procesos tradicionales.  
+- 🦾 **100% de mejora en accesibilidad** para usuarios con discapacidad visual/motora.  
+- 📈 Potencial adopción en millones de usuarios de banca móvil.  
 
-## Funciones indispensables
--  **Botón de micrófono** para iniciar reconocimiento de voz.  
--  **Conversión de voz a texto** en tiempo real.  
--  **Detección de comandos** (ej. transferencias).  
--  **API REST** para enviar solicitud al backend.  
--  **Simulación de transferencias** con Interledger.  
--  **Feedback visual y auditivo** (procesando, éxito, error).  
+**Sostenibilidad:**  
+- Escalable → admite más comandos y pagos reales en el futuro.  
+- Mantenible → arquitectura modular (frontend, backend, API).  
+- Reutilizable → módulos de voz–texto y parser aplicables a otros proyectos.  
 
+---
 
-## Responsables
-- **Denise Jacobo Garcia** → Equipo de desarrollo móvil/web.  
-- **Axell Jhonatan Mendez Perez** → Integrador de APIs de reconocimiento de voz.  
-- **...** → Equipo de NLP / lógica de negocio.  
-- **...** → Equipo backend.  
-- **...** → Equipo de diseño de interfaz.  
+## 👥 Formación de equipo  
+- **Líder de Proyecto** → *Denise Jacobo García*  
+  - Coordinación, supervisión y alineación con objetivos del hackatón.  
 
+- **Frontend Developer** → *Alexandra Lizeth Ruiz Martínez*  
+  - Desarrollo de interfaz (HTML, CSS, JS).  
+  - Integración frontend–backend.  
+  - Módulo speech-to-text y visualización de resultados.  
 
-## Flujo resumido
-1. Usuario presiona el micrófono.  
-2. La app convierte voz → texto.  
-3. Se analiza el texto y se detecta el comando.  
-4. Se envía la solicitud al backend (`/api/transfer`).  
-5. Backend procesa y responde con estado de la transacción.  
-6. La app muestra el resultado al usuario.
-<div align="center">
-  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/prototipo2.jpg" alt="Prototipo" width="200">
-</div>
+- **Backend Developer** → *Julio Andrés Reyes García*  
+  - Desarrollo de API en Node.js.  
+  - Integración con Interledger Open Payments.  
+  - Lógica para simular transferencias.  
+
+- **Documentación & Pitch** → *Axell Jonathan Méndez Pérez*  
+  - Redacción de README y manual de usuario.  
+  - Preparación de discurso/pitch.  
+  - Explicación del problema, solución y beneficios.  
+
+---
+
+## ⚙️ Explicación de los aspectos tecnológicos  
+- **Node.js con Express** → rápido, escalable, modular y con gran soporte comunitario.  
+- **Interledger Open Payments** → estándar abierto para interoperabilidad financiera y simulación de pagos.  
+- **Web Speech API (SpeechRecognition)** → alta precisión, multilenguaje, compatible con navegadores modernos.  
+- **Arquitectura modular (Frontend + Backend + API externa)** →  
+  - Escalable → fácil incorporación de nuevos módulos.  
+  - Mantenible → cambios en una capa no afectan a otras.  
+  - Cohesiva → responsabilidades claras y definidas en cada componente.  
+
+---
+
+## ✅ Resumen  
+- **Problema**: procesos de transferencia financieros son lentos, poco intuitivos y poco accesibles.  
+- **Solución**: KaizenApp → comandos de voz convertidos en transacciones simuladas (voz → texto → API → resultado).  
+- **Beneficios**: rapidez, accesibilidad, reducción de fricción en la experiencia de usuario, escalabilidad hacia servicios financieros reales.  
