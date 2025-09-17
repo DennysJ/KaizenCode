@@ -10,11 +10,15 @@ Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transf
 ---
 
 ## ¿Qué tecnología usarán?
-- **Frontend**: Aplicación móvil/web con botón de micrófono.  
-- **Reconocimiento de voz**: API nativa o de terceros (ej. Web Speech API, Google Speech-to-Text).  
-- **Backend**: Node.js con Express.  
-- **Pagos simulados**: Interledger Open Payments API.  
-- **Comunicación**: API REST (`/api/transfer`).  
+● Frontend: Web/Móvil. 
+
+● Reconocimiento de voz: API Web Speech del navegador (SpeechRecognition). 
+
+● Backend: Node.js con Express. 
+
+● Pagos: Interledger Open Payments API. 
+
+● Comunicación: REST API (/api/transfer). 
 
 ---
 
