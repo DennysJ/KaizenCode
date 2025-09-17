@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@interledger/open-payments": "^7.1.3"
+  }
+}
