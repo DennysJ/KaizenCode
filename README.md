@@ -1,7 +1,9 @@
 # KaizenApp  
 
 Aplicación experimental que convierte **comandos de voz en transacciones financieras **, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
-
+<div align="center">
+  <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototipo" width="200">
+</div>
 ---
 
 ##  ¿Cuál es la problemática?
@@ -51,7 +53,9 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 -  **API REST** para enviar solicitud al backend.  
 -  **Simulación de transferencias** con Interledger.  
 -  **Feedback visual y auditivo** (procesando, éxito, error).  
-
+<div align="center">
+  <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototipo" width="200">
+</div>
 ---
 
 ##  Responsables
