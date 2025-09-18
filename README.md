@@ -40,11 +40,15 @@ Users require a faster and more intuitive way to make transfers, without relying
 ---
 
 ## ¿Cuál es la solución?
-KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que realiza una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
+A mediano y largo plazo, KaizenApp busca evolucionar hacia una plataforma integral de servicios financieros inclusivos. Además de transferencias por voz, se proyecta la incorporación de tecnologías avanzadas como asistentes virtuales inteligentes y autenticación biométrica, que permitan a los usuarios con discapacidad visual o motriz interactuar de manera más natural y segura. Asimismo, la aplicación podría integrar soporte multilingüe, ampliando su alcance y adaptabilidad.
+
+En el plano social, KaizenApp aspira a convertirse en un referente de banca inclusiva, promoviendo la autonomía financiera de sectores históricamente excluidos del ecosistema digital. A futuro, se contempla la posibilidad de expandir la plataforma hacia pagos internacionales accesibles, gestión de finanzas personales por voz y la integración con servicios gubernamentales y programas sociales, consolidando así un ecosistema financiero verdaderamente accesible, seguro y universal.
 
 
 ## What is the solution?
-KaizenApp allows the user to **speak a command**, the system processes it into text, analyzes it, and sends it to a backend that makes a transfer through the Interledger API. Finally, the result (success or error) is displayed on the screen.  
+In the medium and long term, KaizenApp aims to evolve into a comprehensive platform for inclusive financial services. Beyond voice-activated transfers, the platform plans to integrate advanced technologies such as intelligent virtual assistants and biometric authentication, enabling users with visual or motor disabilities to interact more naturally and securely. Additionally, the application could offer multilingual support, expanding its reach and adaptability.
+
+From a social perspective, KaizenApp aspires to become a benchmark for inclusive banking, promoting financial autonomy for groups historically excluded from the digital ecosystem. Looking ahead, the platform envisions expanding into accessible international payments, voice-driven personal finance management, and integration with government services and social programs, thus establishing a truly accessible, secure, and universal financial ecosystem.  
 
 ---
 
