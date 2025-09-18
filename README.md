@@ -103,5 +103,5 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 6. La app muestra el resultado al usuario.
 
 <div align="center">
-  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/view.jpg" width="200">
+  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/view.jpg" width="500">
 </div>
