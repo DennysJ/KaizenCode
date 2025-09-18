@@ -40,15 +40,11 @@ Users require a faster and more intuitive way to make transfers, without relying
 ---
 
 ## ¿Cuál es la solución?
-A mediano y largo plazo, KaizenApp busca evolucionar hacia una plataforma integral de servicios financieros inclusivos. Además de transferencias por voz, se proyecta la incorporación de tecnologías avanzadas como asistentes virtuales inteligentes y autenticación biométrica, que permitan a los usuarios con discapacidad visual o motriz interactuar de manera más natural y segura. Asimismo, la aplicación podría integrar soporte multilingüe, ampliando su alcance y adaptabilidad.
-
-En el plano social, KaizenApp aspira a convertirse en un referente de banca inclusiva, promoviendo la autonomía financiera de sectores históricamente excluidos del ecosistema digital. A futuro, se contempla la posibilidad de expandir la plataforma hacia pagos internacionales accesibles, gestión de finanzas personales por voz y la integración con servicios gubernamentales y programas sociales, consolidando así un ecosistema financiero verdaderamente accesible, seguro y universal.
+KaizenApp elimina las barreras de accesibilidad en las transferencias financieras al integrar control por voz con una arquitectura segura y eficiente. A diferencia de las aplicaciones tradicionales que dependen de menús y formularios extensos, KaizenApp permite que los usuarios —incluyendo personas con discapacidad visual o motriz— realicen operaciones de manera sencilla mediante comandos hablados. La aplicación no solo traduce la voz a instrucciones procesables, sino que también ofrece confirmaciones claras y accesibles en cada paso, reduciendo errores y aumentando la autonomía del usuario. Gracias a la integración con la API de Interledger, las transferencias se ejecutan de forma rápida, segura y compatible con distintos sistemas financieros, posicionando a KaizenApp como una solución innovadora que combina inclusión social, accesibilidad y tecnología de vanguardia.
 
 
 ## What is the solution?
-In the medium and long term, KaizenApp aims to evolve into a comprehensive platform for inclusive financial services. Beyond voice-activated transfers, the platform plans to integrate advanced technologies such as intelligent virtual assistants and biometric authentication, enabling users with visual or motor disabilities to interact more naturally and securely. Additionally, the application could offer multilingual support, expanding its reach and adaptability.
-
-From a social perspective, KaizenApp aspires to become a benchmark for inclusive banking, promoting financial autonomy for groups historically excluded from the digital ecosystem. Looking ahead, the platform envisions expanding into accessible international payments, voice-driven personal finance management, and integration with government services and social programs, thus establishing a truly accessible, secure, and universal financial ecosystem.  
+KaizenApp eliminates accessibility barriers in financial transfers by integrating voice control with a secure and efficient architecture. Unlike traditional applications that rely on extensive menus and forms, KaizenApp allows users—including those with visual or motor disabilities—to perform transactions easily using spoken commands. The application not only translates voice into actionable instructions but also provides clear and accessible confirmations at each step, reducing errors and increasing user autonomy. Thanks to the integration with the Interledger API, transfers are executed quickly, securely, and are compatible with various financial systems, positioning KaizenApp as an innovative solution that combines social inclusion, accessibility, and cutting-edge technology.
 
 ---
 
@@ -56,14 +52,14 @@ From a social perspective, KaizenApp aspires to become a benchmark for inclusive
 - **Rapidez**: transferencias con un solo comando de voz.  
 - **Accesibilidad**: útil para personas con dificultades auditivas o visuales.  
 - **Experiencia intuitiva**: flujo natural, sin menús ni pasos innecesarios.  
-- **Pruebas seguras**: uso de wallets y transacciones simuladas.  
+- **Seguridad**: uso de la API Interledger Open Payments para operaciones confiables.
 
 
 ## What are the benefits?
 - **Speed**: transfers with a single voice command.  
 - **Accessibility**: useful for people with hearing or visual impairments.  
 - **Intuitive experience**: natural flow, no unnecessary menus or steps.  
-- **Safe testing**: use of wallets and simulated transactions.  
+- **Security**: Using the Interledger Open Payments API for secure transactions.
 
 ---
 
