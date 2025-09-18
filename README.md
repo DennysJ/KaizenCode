@@ -26,7 +26,20 @@ Users need a **faster and more intuitive** way to make transfers, without relyin
 
 ● Comunicación: REST API (/api/transfer). 
 
+## What technology was used?
+● Frontend: Web/Mobile.  
+
+● Speech Recognition: Browser Web Speech API (SpeechRecognition).  
+
+● Backend: Node.js with Express.  
+
+● Payments: Interledger Open Payments API.  
+
+● Communication: REST API (/api/transfer).  
+
 ---
+
+
 
 ## ¿Cuál es la solución?
 KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que realiza una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
