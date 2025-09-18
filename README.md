@@ -186,7 +186,7 @@ KaizenApp eliminates accessibility barriers in financial transfers by integratin
 ## Especificaciones / Specifications
 **Lenguaje y versión/Language and version:** Java Script y Nodle.js (v22.19.0)
 
-**Compilador/Compiler**
+**Compilador/Compiler:** Java Script.
 
 **Librerías/libraries:** 
 Reconociemiento de voz:`<link>` : <https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition>
