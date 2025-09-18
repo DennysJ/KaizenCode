@@ -54,6 +54,13 @@ KaizenApp allows the user to **speak a command**, the system processes it into t
 - **Experiencia intuitiva**: flujo natural, sin menús ni pasos innecesarios.  
 - **Pruebas seguras**: uso de wallets y transacciones simuladas.  
 
+
+## What are the benefits?
+- **Speed**: transfers with a single voice command.  
+- **Accessibility**: useful for people with hearing or visual impairments.  
+- **Intuitive experience**: natural flow, no unnecessary menus or steps.  
+- **Safe testing**: use of wallets and simulated transactions.  
+
 ---
 
 ## Arquitectura / Stack simple
