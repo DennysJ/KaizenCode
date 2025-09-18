@@ -169,6 +169,15 @@ KaizenApp allows the user to **speak a command**, the system processes it into t
 5. Backend procesa y responde con estado de la transacción.  
 6. La app muestra el resultado al usuario.
 
+
+## Simplified Flow
+1. User presses the microphone.  
+2. The app converts voice → text.  
+3. The text is analyzed and the command is detected.  
+4. The request is sent to the backend (`/api/transfer`).  
+5. Backend processes and responds with transaction status.  
+6. The app displays the result to the user.  
+
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/view.jpg" width="500">
 </div>
