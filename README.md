@@ -90,6 +90,19 @@ KaizenApp allows the user to **speak a command**, the system processes it into t
 <div align="center">
   <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototipo" width="200">
 </div>
+
+
+## Essential Features
+- **Microphone button** to start speech recognition.  
+- **Real-time speech-to-text** conversion.  
+- **Command detection** (e.g., transfers).  
+- **REST API** to send requests to the backend.  
+- **Transfer simulation** with Interledger.  
+- **Visual and audio feedback** (processing, success, error).  
+<div align="center">
+  <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototype" width="200">
+</div>
+
 ---
 
 ##  Responsables
