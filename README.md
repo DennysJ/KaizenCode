@@ -182,3 +182,6 @@ KaizenApp eliminates accessibility barriers in financial transfers by integratin
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/view.jpg" width="500">
 </div>
+
+## Animación
+`<link>` : <https://gsap.com/>
