@@ -134,6 +134,31 @@ KaizenApp allows the user to **speak a command**, the system processes it into t
 
 ○ Explicación clara del problema, la solución y los beneficios.
 
+## Team Members
+● **Project Leader** → Denise Jacobo García  
+
+○ Coordinates the team.  
+○ Oversees progress.  
+○ Ensures the proposal aligns with hackathon objectives.  
+
+● **Frontend Developer** → Alexandra Lizeth Ruiz Martínez  
+
+○ Interface development (HTML, CSS, JS).  
+○ Frontend-backend integration.  
+○ Handling of speech-to-text module and result display.  
+
+● **Backend Developer** → Julio Andrés Reyes García  
+
+○ API development in Node.js.  
+○ Connection with Interledger Open Payments API.  
+○ Implementation of logic to simulate wallet transfers.  
+
+● **Documentation & Speech** → Axell Jonathan Méndez Pérez  
+
+○ Writing the README and user manual.  
+○ Preparing the pitch/presentation.  
+○ Clear explanation of the problem, solution, and benefits.  
+
 ---
 
 ##  Flujo resumido
