@@ -87,10 +87,6 @@ KaizenApp allows the user to **speak a command**, the system processes it into t
 -  **API REST** para enviar solicitud al backend.  
 -  **Simulación de transferencias** con Interledger.  
 -  **Feedback visual y auditivo** (procesando, éxito, error).  
-<div align="center">
-  <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototipo" width="200">
-</div>
-
 
 ## Essential Features
 - **Microphone button** to start speech recognition.  
