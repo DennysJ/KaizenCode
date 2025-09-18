@@ -70,6 +70,14 @@ KaizenApp allows the user to **speak a command**, the system processes it into t
 4. **Backend Node.js**: integración con Interledger Open Payments.  
 5. **Respuesta → Pantalla**: resultado en la app (toast + cuadro de texto).  
 
+
+## Architecture / Simple Stack
+1. **Voice → Text**: speech recognition API.  
+2. **Text → Analysis**: command parser (amount, currency, recipient).  
+3. **Text → API**: request sent to backend (`/api/transfer`).  
+4. **Backend Node.js**: integration with Interledger Open Payments.  
+5. **Response → Screen**: result in the app (toast + text box).  
+
 ---
 
 ## Funciones indispensables
