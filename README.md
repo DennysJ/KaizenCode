@@ -100,4 +100,8 @@ KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en 
 3. Se analiza el texto y se detecta el comando.  
 4. Se envía la solicitud al backend (`/api/transfer`).  
 5. Backend procesa y responde con estado de la transacción.  
-6. La app muestra el resultado al usuario.  
+6. La app muestra el resultado al usuario.
+
+<div align="center">
+  <img src="https://github.com/DennysJ/Prueba1/blob/main/Protottipo.jpg" alt="Prototipo" width="200">
+</div>
