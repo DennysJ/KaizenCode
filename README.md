@@ -12,7 +12,10 @@ Experimental application that converts voice commands into **financial transacti
 Los usuarios necesitan una forma más **rápida e intuitiva** de realizar transferencias, sin depender de menús complicados o formularios extensos. Actualmente, los sistemas financieros móviles suelen ser poco accesibles para personas que prefieren la interacción por voz o tienen problemas audiovisuales.  
 
 ---
+## What is the problem?
+Users need a **faster and more intuitive** way to make transfers, without relying on complicated menus or lengthy forms. Currently, mobile financial systems are often not accessible to people who prefer voice interaction or have audiovisual difficulties.  
 
+---
 ## ¿Qué tecnología se usó?
 ● Frontend: Web/Móvil. 
 
