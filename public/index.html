@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>KaizenApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Pantalla de carga -->
+  <div id="loading-screen">
+     <h1 class="app-name">KaizenApp</h1>
+    <div class="loading-eyes">
+      <svg width="200" height="80" viewBox="0 0 200 80">
+        <circle id="load-ojo-izq" cx="70" cy="40" r="12" fill="white"/>
+        <circle id="load-ojo-der" cx="130" cy="40" r="12" fill="white"/>
+      </svg>
+      <p>Cargando...</p>
+    </div>
+  </div>
+
+  <!-- Pantalla principal -->
+  <div id="app" class="hidden">
+    <div class="container">
+      <h1 class="title">KaizenApp</h1>
+      
+      <!-- Muñequito PNG -->
+      <div class="robot">
+        <img src="images/robot.png" alt="robot" id="robot">
+      </div>
+
+      <!-- Botón micrófono -->
+      <button class="mic-btn">🎤</button>
+    </div>
+  </div>
+<!-- Overlay Procesando -->
+<div id="processing-overlay" class="hidden">
+  <div class="processing-content">
+    <div class="spinner"></div>
+    <p>Procesando petición...</p>
+  </div>
+</div>
+
+<!-- Toast notificación -->
+<div id="toast" class="hidden"></div>
+
+<!-- Contenedor de datos respuesta -->
+<div id="response-data" class="hidden neon-box">
+  <button id="close-response" class="close-btn">✖</button>
+  <pre id="response-text"></pre>
+</div>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
