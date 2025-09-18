@@ -5,6 +5,12 @@ Aplicación experimental que convierte comandos de voz en **transacciones financ
   <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/Icono.jpg" alt="Prototipo" width="200">
 </div>
 
+# Kaizen App
+
+Experimental application that converts voice commands into **financial transactions**, using speech recognition technologies, backend APIs, and open payment protocols.  
+<div align="center">
+  <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/Icono.jpg" alt="Prototype" width="200">
+</div>
 ---
 
 ##  ¿Cuál es la problemática?
