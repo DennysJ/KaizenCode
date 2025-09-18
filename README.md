@@ -1,4 +1,4 @@
-#Kaizen App
+# Kaizen App
 
 Aplicación experimental que convierte comandos de voz en **transacciones financieras**, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos.  
 <div align="center">
