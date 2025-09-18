@@ -20,9 +20,9 @@ Users require a faster and more intuitive way to make transfers, without relying
 
 ● Reconocimiento de voz: API Web Speech del navegador (SpeechRecognition). 
 
-● Backend: Node.js con Express. 
+● Backend: Node.js con Express. `<link>` : <https://nodejs.org/es/download/>
 
-● Pagos: Interledger Open Payments API. 
+● Pagos: Interledger Open Payments API. `<link>` : <https://openpayments.dev/>
 
 ● Comunicación: REST API (/api/transfer). 
 
