@@ -1,8 +1,6 @@
 # Kaizen App
 Aplicación experimental que convierte comandos de voz en **transacciones financieras**, usando tecnologías de reconocimiento de voz, APIs de backend y protocolos abiertos de pagos. 
 
-
-
 Experimental application that converts voice commands into **financial transactions**, using speech recognition technologies, backend APIs, and open payment protocols.  
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenCode/blob/main/Img-Kaizen/Icono.jpg" alt="Prototipo" width="200">
@@ -41,10 +39,12 @@ Users need a **faster and more intuitive** way to make transfers, without relyin
 
 ---
 
-
-
 ## ¿Cuál es la solución?
 KaizenApp permite que el usuario **hable un comando**, el sistema lo procese en texto, lo analice y lo envíe a un backend que realiza una transferencia con la API de Interledger. Finalmente, el resultado (éxito o error) se muestra en pantalla.  
+
+
+## What is the solution?
+KaizenApp allows the user to **speak a command**, the system processes it into text, analyzes it, and sends it to a backend that makes a transfer through the Interledger API. Finally, the result (success or error) is displayed on the screen.  
 
 ---
 
