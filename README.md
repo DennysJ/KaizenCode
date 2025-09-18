@@ -189,7 +189,8 @@ KaizenApp eliminates accessibility barriers in financial transfers by integratin
 **Compilador/Compiler:** Java Script.
 
 **Librerías/libraries:** 
-Reconociemiento de voz:
+
+Reconocimiento de voz:
 `<link>` : <https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition>
 
 Animación: `<link>` :  <https://gsap.com/>
