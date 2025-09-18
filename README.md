@@ -11,8 +11,9 @@ Experimental application that converts voice commands into **financial transacti
 ##  ¿Cuál es la problemática?
 Los usuarios requieren una forma más rápida e intuitiva de realizar transferencias, sin depender de menús complejos ni formularios extensos. En la actualidad, muchas aplicaciones financieras móviles presentan barreras de accesibilidad, lo que dificulta su uso por parte de personas con discapacidad visual o motriz, así como de usuarios que prefieren interactuar mediante comandos de voz. Esta limitación genera exclusión digital y restringe la autonomía de estos sectores. Por ello, resulta esencial diseñar una aplicación que priorice la inclusión social, garantizando que cualquier persona, independientemente de sus capacidades, pueda realizar operaciones financieras de manera segura, accesible y sencilla.  
 
-## What is the problem?
+##  What is the problem?
 Users require a faster and more intuitive way to make transfers, without relying on complex menus or lengthy forms. Currently, many mobile financial applications present accessibility barriers, making them difficult to use for individuals with visual or motor disabilities, as well as for users who prefer to interact through voice commands. This limitation generates digital exclusion and restricts the autonomy of these groups. Therefore, it is essential to design an application that prioritizes social inclusion, ensuring that anyone, regardless of their abilities, can carry out financial operations in a secure, accessible, and simple manner.
+
 ---
 ## ¿Qué tecnología se usó?
 ● Frontend: Web/Móvil. 
